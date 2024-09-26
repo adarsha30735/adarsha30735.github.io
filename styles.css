@@ -53,7 +53,6 @@ a:hover {
 /* Accomplishments and Research section */
 ol {
     padding: 0;
-    margin: 0; /* Ensure no margin for ordered list */
 }
 
 li {
@@ -72,11 +71,6 @@ li img {
     border-radius: 4px; /* Slightly rounded corners for images */
 }
 
-/* Ensure divs within li have consistent spacing */
-li > div {
-    flex: 1; /* Allows the text container to take up remaining space */
-}
-
 /* Competencies and other sections */
 ul {
     margin-top: 20px;
@@ -85,3 +79,4 @@ ul {
 li {
     margin-bottom: 10px;
 }
+
