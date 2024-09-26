@@ -1,0 +1,82 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header Styles */
+h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #2980b9;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Image styles */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%; /* Makes image round */
+}
+
+/* About Me section */
+p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+/* Links */
+a {
+    color: #2980b9;
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Accomplishments and Research section */
+ol {
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    background-color: #fff; /* White background for items */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow */
+}
+
+li img {
+    margin-right: 20px;
+    border-radius: 4px; /* Slightly rounded corners for images */
+}
+
+/* Competencies and other sections */
+ul {
+    margin-top: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
