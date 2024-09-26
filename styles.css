@@ -36,12 +36,12 @@ img {
 
 
 /* Round images for research accomplishments */
-.best-img {
-    border-radius: 50%; /* Makes image round */
+#best-image {
+    border-radius: 0; /* Remove rounding */
 }
 
 /* Rectangular images for certificates */
-.present-img {
+#present-img {
     border-radius: 0; /* Remove rounding */
 }
 
