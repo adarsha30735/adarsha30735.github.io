@@ -34,6 +34,23 @@ img {
     border-radius: 50%; /* Makes image round */
 }
 
+
+/* Round images for research accomplishments */
+.best-img {
+    border-radius: 50%; /* Makes image round */
+}
+
+/* Rectangular images for certificates */
+.present-img {
+    border-radius: 0; /* Remove rounding */
+}
+
+
+
+
+
+
+
 /* About Me section */
 p {
     margin-bottom: 20px;
