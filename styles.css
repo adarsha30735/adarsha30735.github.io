@@ -53,23 +53,32 @@ a:hover {
 /* Accomplishments and Research section */
 ol {
     padding: 0;
+    list-style-position: inside; /* Ensures list markers are aligned properly */
 }
 
 li {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 20px;
+    display: flex; /* Use flexbox for layout */
+    align-items: flex-start; /* Align items at the start */
+    margin-bottom: 20px; /* Space between list items */
     background-color: #fff; /* White background for items */
     border: 1px solid #ddd; /* Light gray border */
     border-radius: 8px; /* Rounded corners */
-    padding: 10px;
+    padding: 10px; /* Padding inside each list item */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow */
 }
 
 li img {
-    margin-right: 20px;
+    margin-right: 20px; /* Space between image and text */
     border-radius: 4px; /* Slightly rounded corners for images */
+    max-width: 60px; /* Set a maximum width for images */
+    height: auto; /* Maintain aspect ratio of images */
 }
+
+li p {
+    margin: 0; /* Remove margin for paragraphs inside list items */
+    flex-grow: 1; /* Allow text to take remaining space */
+}
+
 
 /* Competencies and other sections */
 ul {
