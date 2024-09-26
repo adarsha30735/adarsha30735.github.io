@@ -49,6 +49,7 @@ img {
     height: auto;       /* Maintain aspect ratio */
 }
 
+
 /* About Me section */
 p {
     margin-bottom: 20px;
@@ -59,12 +60,10 @@ p {
 a {
     color: #2980b9;
     text-decoration: none; /* Remove underline */
-    transition: color 0.3s ease; /* Smooth transition */
 }
 
 a:hover {
     text-decoration: underline; /* Underline on hover */
-    color: #1c598a; /* Change color on hover */
 }
 
 /* Accomplishments and Research section */
@@ -99,34 +98,6 @@ ul {
     margin-top: 20px;
 }
 
-ul li {
+li {
     margin-bottom: 10px;
-}
-
-/* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-    .image-container {
-        flex-direction: column; /* Stack images vertically on small screens */
-        align-items: center;     /* Center align images */
-    }
-
-    img {
-        width: 100%; /* Allow images to scale to full width */
-        max-width: 300px; /* Maintain a max width */
-    }
-
-    li {
-        flex-direction: column; /* Stack list items vertically */
-        align-items: flex-start; /* Align items to the start */
-    }
-}
-
-/* Footer Styles */
-footer {
-    text-align: center;
-    padding: 10px;
-    background: #2980b9;
-    color: white;
-    margin-top: 20px;
-    border-radius: 8px;
 }
