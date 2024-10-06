@@ -11,6 +11,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     padding: 20px;
+    font-size: 16px; /* Base font size */
 }
 
 /* Header Styles */
@@ -37,18 +38,17 @@ img {
 }
 
 .image-container {
-    display: flex;               /* Use Flexbox */
+    display: flex; /* Use Flexbox */
     justify-content: space-around; /* Space out the images evenly */
-    align-items: center;        /* Align items vertically */
-    margin: 20px 0;            /* Add some vertical margin */
+    align-items: center; /* Align items vertically */
+    margin: 20px 0; /* Add some vertical margin */
 }
 
 .image-container img {
     border-radius: 8px; /* Smooth edges */
-    width: 300px;       /* Fixed width */
-    height: auto;       /* Maintain aspect ratio */
+    width: 300px; /* Fixed width */
+    height: auto; /* Maintain aspect ratio */
 }
-
 
 /* About Me section */
 p {
@@ -100,4 +100,37 @@ ul {
 
 li {
     margin-bottom: 10px;
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #2980b9;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #1a6b94; /* Darken button color on hover */
+}
+
+/* Hover Effects on List Items */
+li:hover {
+    background-color: #f9f9f9; /* Slightly lighter background on hover */
+    border-color: #2980b9; /* Change border color */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .image-container {
+        flex-direction: column; /* Stack images vertically on smaller screens */
+        align-items: center; /* Center items */
+    }
+
+    img {
+        width: 100%; /* Full width on smaller screens */
+        max-width: 300px; /* Keep a max width */
+    }
 }
