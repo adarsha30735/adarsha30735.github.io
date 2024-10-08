@@ -22,19 +22,19 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     padding: 20px;
-    font-size: 16px; /* Base font size */
+    font-size: 15px; /* Adjusted base font size */
 }
 
 /* Header Styles */
 h1 {
-    font-size: 2.5em;
+    font-size: 2.2em; /* Reduced font size */
     color: var(--secondary-color);
     margin-bottom: 10px;
     font-weight: bold; /* Added font weight for emphasis */
 }
 
 h2 {
-    font-size: 1.8em;
+    font-size: 1.6em; /* Reduced font size */
     color: var(--primary-color);
     margin-top: 20px;
     margin-bottom: 10px;
@@ -66,7 +66,7 @@ img {
 /* About Me section */
 p {
     margin-bottom: 20px;
-    font-size: 1.1em;
+    font-size: 1em; /* Adjusted paragraph font size */
 }
 
 /* Links */
