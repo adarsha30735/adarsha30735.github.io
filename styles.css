@@ -1,14 +1,3 @@
-/* Define CSS Variables for easier maintenance */
-:root {
-    --primary-color: #2980b9;
-    --primary-dark: #1a6b94; /* Darkened primary color for hover effects */
-    --secondary-color: #2c3e50;
-    --background-color: #f4f4f4;
-    --text-color: #333;
-    --light-gray: #ddd;
-    --white: #fff;
-}
-
 /* Reset some default styles */
 body, h1, h2, p, ul, ol {
     margin: 0;
@@ -19,33 +8,35 @@ body, h1, h2, p, ul, ol {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: var(--background-color);
-    color: var(--text-color);
+    background-color: #f4f4f4;
+    color: #333;
     padding: 20px;
     font-size: 16px; /* Base font size */
-    display: flex; /* Use flexbox */
-    justify-content: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
-    min-height: 100vh; /* Full viewport height */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
 }
 
 /* Main container */
 .container {
     max-width: 800px; /* Set max width for content */
     width: 100%; /* Full width until max is reached */
-    text-align: center; /* Center all text within the container */
+    padding: 20px; /* Padding around the content */
+    background-color: #fff; /* White background for better visibility */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add some shadow for depth */
+    text-align: center; /* Center text */
 }
 
 /* Header Styles */
 h1 {
     font-size: 2.2em; /* Adjusted font size */
-    color: var(--secondary-color);
+    color: #2c3e50;
     margin-bottom: 10px;
 }
 
 h2 {
     font-size: 1.6em; /* Adjusted font size */
-    color: var(--primary-color);
+    color: #2980b9;
     margin-top: 20px;
     margin-bottom: 10px;
 }
@@ -70,12 +61,12 @@ img {
 /* About Me section */
 p {
     margin-bottom: 20px;
-    font-size: 1em; /* Increased paragraph font size */
+    font-size: 1em; /* Adjusted paragraph font size */
 }
 
 /* Links */
 a {
-    color: var(--primary-color);
+    color: #2980b9;
     text-decoration: none; /* Remove underline */
 }
 
@@ -94,8 +85,8 @@ li {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
     margin-bottom: 20px;
-    background-color: var(--white); /* White background for items */
-    border: 1px solid var(--light-gray); /* Light gray border */
+    background-color: #fff; /* White background for items */
+    border: 1px solid #ddd; /* Light gray border */
     border-radius: 8px; /* Rounded corners */
     padding: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow */
@@ -110,14 +101,14 @@ li img {
 .button {
     display: inline-block;
     padding: 10px 15px;
-    background-color: var(--primary-color);
-    color: var(--white);
+    background-color: #2980b9;
+    color: white;
     border-radius: 5px;
     transition: background-color 0.3s ease; /* Transition for button hover */
 }
 
 .button:hover {
-    background-color: var(--primary-dark); /* Darken button color on hover */
+    background-color: #1a6b94; /* Darken button color on hover */
 }
 
 /* Responsive Design */
