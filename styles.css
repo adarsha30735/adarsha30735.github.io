@@ -22,19 +22,20 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     padding: 20px;
-    font-size: 15px; /* Adjusted base font size */
+    font-size: 14px; /* Further reduced base font size */
+    text-align: center; /* Center all text within the body */
 }
 
 /* Header Styles */
 h1 {
-    font-size: 2.2em; /* Reduced font size */
+    font-size: 2em; /* Reduced font size */
     color: var(--secondary-color);
     margin-bottom: 10px;
     font-weight: bold; /* Added font weight for emphasis */
 }
 
 h2 {
-    font-size: 1.6em; /* Reduced font size */
+    font-size: 1.4em; /* Further reduced font size */
     color: var(--primary-color);
     margin-top: 20px;
     margin-bottom: 10px;
@@ -52,7 +53,7 @@ img {
 
 .image-container {
     display: flex; /* Use Flexbox */
-    justify-content: space-around; /* Space out the images evenly */
+    justify-content: center; /* Center images horizontally */
     align-items: center; /* Align items vertically */
     margin: 20px 0; /* Add some vertical margin */
 }
@@ -66,7 +67,7 @@ img {
 /* About Me section */
 p {
     margin-bottom: 20px;
-    font-size: 1em; /* Adjusted paragraph font size */
+    font-size: 0.9em; /* Further reduced paragraph font size */
 }
 
 /* Links */
@@ -87,7 +88,8 @@ ol {
 
 li {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
     margin-bottom: 20px;
     background-color: var(--white); /* White background for items */
     border: 1px solid var(--light-gray); /* Light gray border */
@@ -98,13 +100,15 @@ li {
 }
 
 li img {
-    margin-right: 20px;
+    margin-right: 0; /* Remove margin for centered layout */
+    margin-bottom: 10px; /* Add bottom margin for spacing */
     border-radius: 4px; /* Slightly rounded corners for images */
 }
 
 /* Ensure divs within li have consistent spacing */
 li > div {
     flex: 1; /* Allows the text container to take up remaining space */
+    text-align: center; /* Center text within the div */
 }
 
 /* Competencies and other sections */
