@@ -16,6 +16,14 @@ body, h1, h2, p, ul, ol {
     list-style: none;
 }
 
+.content-container {
+    max-width: 1200px;  /* Adjust this value to your desired width */
+    margin: 0 auto;     /* This centers the container horizontally */
+    padding: 0 20px;    /* This adds padding on the left and right to create a gap */
+}
+
+
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
