@@ -16,10 +16,14 @@ body, h1, h2, p, ul, ol {
     list-style: none;
 }
 
+
+
 .content-container {
-    max-width: 1200px;  /* Adjust this value to your desired width */
-    margin: 0 auto;     /* This centers the container horizontally */
-    padding: 0 20px;    /* This adds padding on the left and right to create a gap */
+    max-width: 1000px;  /* Set a fixed width that fits the screen well */
+    margin: 0 auto;     /* Center it horizontally */
+    padding: 0 20px;    /* Optional: Adds padding inside the content for breathing room */
+    background-color: #f8f9fa;  /* Optional: To easily see the content area */
+    box-sizing: border-box; /* Ensures padding is included in the total width */
 }
 
 
