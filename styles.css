@@ -37,12 +37,17 @@ img {
     border-radius: 8px; /* Slightly rounded corners for smooth edges */
 }
 
-/* Image container styles */
 .image-container {
     display: flex; /* Use Flexbox */
     justify-content: space-around; /* Space out the images evenly */
     align-items: center; /* Align items vertically */
     margin: 20px 0; /* Add some vertical margin */
+}
+
+.image-container img {
+    border-radius: 8px; /* Smooth edges */
+    width: 300px; /* Fixed width */
+    height: auto; /* Maintain aspect ratio */
 }
 
 /* About Me section */
@@ -51,7 +56,7 @@ p {
     font-size: 1.1em;
 }
 
-/* Link Styles */
+/* Links */
 a {
     color: #2980b9;
     text-decoration: none; /* Remove underline */
@@ -78,7 +83,6 @@ li {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow */
 }
 
-/* Image within list items */
 li img {
     margin-right: 20px;
     border-radius: 4px; /* Slightly rounded corners for images */
@@ -94,7 +98,7 @@ ul {
     margin-top: 20px;
 }
 
-ul li {
+li {
     margin-bottom: 10px;
 }
 
