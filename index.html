@@ -2,78 +2,102 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
-
-
     <style>
-    .work-experience p {
+    .content-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    /* Horizontal line style */
+    hr {
+      border: 0;
+      border-top: 0.5px solid rgba(204, 204, 204, 0.5);
+      margin: 20px 0;
+    }
+
+    .bio-container {
       display: flex;
       align-items: center;
-      margin: 0;
-      justify-content: flex-start;
-      text-align: left;
-      width: 100%;
-      padding: 0;
+      margin-bottom: 20px;
     }
-    .work-experience p span {
-      display: block;
-      width: 100%;
-    }
-    .work-experience img {
-      width: 54px;
-      height: 54px;
-      margin-right: 8px;
-    }
-  </style>
 
+    /* Styling for the image */
+    .bio-container img {
+      width: 220px;
+      height: auto;
+      box-shadow: 5px 5px 5px rgba(50, 50, 50, 0.6);
+      margin-right: 20px;
+      vertical-align: middle; /* Ensures the image is aligned with text */
+    }
+
+    /* Styling for text section */
+    .bio-container div {
+      max-width: 800px;
+    }
+
+    .bio-container p {
+      margin: 10px 0;
+      line-height: 1.6;
+    }
+
+    .bio-container a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .bio-container a:hover {
+      text-decoration: underline;
+    }
+    </style>
     <title>Adarsha's Portfolio</title>
 </head>
-
-
 <body>
 
-
 <div class="content-container">
-    
+    <h2>Adarsha Bhattarai</h2>
 
-<h1>Adarsha Bhattarai</h1>
-<!-- Horizontal line -->
-<hr style="border: 0; border-top: 0.5px solid rgba(204, 204, 204, 0.5); margin: 20px 0;">
+    <!-- Horizontal line -->
+    <hr>
 
-<div style="display: flex; align-items: center; margin-bottom: 20px;">
-    <!-- Photo Section -->
-    <img src="myphoto.jpeg" alt="Adarsha Bhattarai" style="width: 220px; height: auto; box-shadow: 5px 5px 5px rgba(50,50,50,0.6); margin-right: 20px;">
-  
-    <!-- Text Section -->
-    <div>
-        
-        <p>
-            Hello! I'm a Ph.D. candidate in Electrical and Computer Engineering at the 
-            <a href="https://engineering.unl.edu/ece/adarsha-bhattarai/" target="_blank">University of Nebraska-Lincoln</a>, 
-            where I specialize in medical applications of AI and machine learning. My research includes secured remote ECG monitoring 
-            and accelerated CEST MRI acquisition in collaboration with computer engineering scientists, cardiologists, and radiologists.
-        </p>
-        <p>
-            Previously, I received the Best Research Award at the 
-            <a href="https://ieee-ccwc.org/" target="_blank">IEEE CCWC 2024</a> and the Best Presenter Award at the University of Nebraska Omaha 
-            <a href="https://www.unomaha.edu/news/2024/03/annual-research-and-creative-activity-fair-a-celebration-of-academic-excellence.php" target="_blank">2024 Research and Creative Activity Fair</a>. 
-            Before starting my Ph.D., I completed my B.S. in Electrical and Electronics Engineering with honors at 
-            <a href="https://elektrikelektronikmuhendislik.iuc.edu.tr/tr/duyuru/dereceye-giren-ogrenci-listesi-65007A004F0041007200550072004200550075006A0039007900700046006200610041004F003200370077003200" target="_blank">Istanbul University</a>.
-        </p>
+    <div class="bio-container">
+        <!-- Photo Section -->
+        <img src="myphoto.jpeg" alt="Adarsha Bhattarai">
 
-        <p>
-            <a href="https://scholar.google.com/citations?user=0CgWvNIAAAAJ&hl=en">Google Scholar</a>. 
-            <a href="CV_Adarsha.pdf" target="_blank">CV</a>. 
-            <a href="https://github.com/adarsha30735">GitHub</a>. 
-            <a href="https://www.linkedin.com/in/adarsha-bhattarai-173622163/">Linkedin</a>.
-            <a href="https://journeyofadarsha.blogspot.com/" target="_blank">Blog</a>
-        </p>
+        <!-- Text Section -->
+        <div>
+            <p>
+                Hello! I'm a Ph.D. candidate in Electrical and Computer Engineering at the 
+                <a href="https://engineering.unl.edu/ece/adarsha-bhattarai/" target="_blank">University of Nebraska-Lincoln</a>, 
+                where I specialize in medical applications of AI and machine learning. My research includes secured remote ECG monitoring 
+                and accelerated CEST MRI acquisition in collaboration with computer engineering scientists, cardiologists, and radiologists.
+            </p>
+            <p>
+                Previously, I received the Best Research Award at the 
+                <a href="https://ieee-ccwc.org/" target="_blank">IEEE CCWC 2024</a> and the Best Presenter Award at the University of Nebraska Omaha 
+                <a href="https://www.unomaha.edu/news/2024/03/annual-research-and-creative-activity-fair-a-celebration-of-academic-excellence.php" target="_blank">2024 Research and Creative Activity Fair</a>. 
+                Before starting my Ph.D., I completed my B.S. in Electrical and Electronics Engineering with honors at 
+                <a href="https://elektrikelektronikmuhendislik.iuc.edu.tr/tr/duyuru/dereceye-giren-ogrenci-listesi-65007A004F0041007200550072004200550075006A0039007900700046006200610041004F003200370077003200" target="_blank">Istanbul University</a>.
+            </p>
 
-        <p>
-            Email: abhattarai3@huskers.unl.edu
-        </p>
+            <p>
+                <a href="https://scholar.google.com/citations?user=0CgWvNIAAAAJ&hl=en">Google Scholar</a>. 
+                <a href="CV_Adarsha.pdf" target="_blank">CV</a>. 
+                <a href="https://github.com/adarsha30735">GitHub</a>. 
+                <a href="https://www.linkedin.com/in/adarsha-bhattarai-173622163/">Linkedin</a>.
+                <a href="https://journeyofadarsha.blogspot.com/" target="_blank">Blog</a>
+            </p>
+
+            <p>
+                Email: abhattarai3@huskers.unl.edu
+            </p>
+        </div>
     </div>
 </div>
-
 
    <hr style="border: 0; border-top: 0.5px solid rgba(204, 204, 204, 0.5); margin: 20px 0;">
 
