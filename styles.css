@@ -40,14 +40,14 @@ body {
 /* Header Styles */
 h1 {
     font-size: 2.2em; /* Reduced font size */
-    color: var(--secondary-color);
+    color: var(--primary-color);
     margin-bottom: 10px;
     font-weight: bold; /* Added font weight for emphasis */
 }
 
 h2 {
     font-size: 1.6em; /* Reduced font size */
-    color: var(--primary-color);
+    color: var(--secondary-color);
     margin-top: 20px;
     margin-bottom: 10px;
     font-weight: bold; /* Added font weight for emphasis */
