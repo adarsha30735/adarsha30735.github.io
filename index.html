@@ -4,6 +4,49 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 
 
+  <style>
+.work-experience-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* Space between items */
+}
+
+.work-experience-grid p {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.work-experience-grid p span {
+  display: block;
+  width: 100%;
+}
+
+.work-experience-grid img {
+  width: 54px;
+  height: 54px;
+  margin-right: 8px;
+}
+
+@media (max-width: 768px) {
+  .work-experience-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .work-experience-grid {
+    grid-template-columns: 1fr; /* Single column for small screens */
+  }
+}
+</style>
+
+
+    
     <style>
     .work-experience p {
       display: flex;
@@ -100,69 +143,68 @@
 
 
 
-<h2>Professional Experience </h2>
+<h2> Professional Experience</h2>
 
-<div class="work-experience">
-
-
- <p>
-    <img src="unl.jpg" alt="Icon">
+<div class="work-experience-grid">
+  <p>
+    <img src="unl.jpg" alt="University of Nebraska-Lincoln Logo">
     <span>
-      <strong><a href="https://engineering.unl.edu/ece/adarsha-bhattarai/" target="_blank">University of Nebraska-Lincoln</a></strong>, 01/2024 - 05/2024<br>
-      Lecturer.
+      <strong><a href="https://engineering.unl.edu/ece/adarsha-bhattarai/" target="_blank">University of Nebraska-Lincoln</a></strong><br>
+      Lecturer<br>
+      01/2024 - 05/2024
     </span>
   </p>
-
   
-<p>
-    <img src="endless_health_logo.jfif" alt="Icon">
+  <p>
+    <img src="endless_health_logo.jfif" alt="Endless Health Logo">
     <span>
-      <strong><a href="https://www.endless.health/" target="_blank">Endless Health</a></strong>, Summer 2023<br>
-      R&D Intern.<br>
-      Advisor: <a href="https://scholar.google.com/citations?user=EDlcOKgAAAAJ&hl=en" target="_blank">Cooper Galvin.</a>
+      <strong><a href="https://www.endless.health/" target="_blank">Endless Health</a></strong><br>
+      R&D Intern<br>
+      Summer 2023<br>
+      Advisor: <a href="https://scholar.google.com/citations?user=EDlcOKgAAAAJ&hl=en" target="_blank">Cooper Galvin</a>
     </span>
   </p>
-    
+  
   <p>
-    <img src="unl.jpg" alt="Icon">
+    <img src="unl.jpg" alt="University of Nebraska-Lincoln Logo">
     <span>
-      <strong><a href="https://engineering.unl.edu/ece/adarsha-bhattarai/" target="_blank">University of Nebraska-Lincoln</a></strong>, 08/2021 - present<br>
-      Research and Teaching Assistant.
+      <strong><a href="https://engineering.unl.edu/ece/adarsha-bhattarai/" target="_blank">University of Nebraska-Lincoln</a></strong><br>
+      Research and Teaching Assistant<br>
+      08/2021 - Present
     </span>
   </p>
-
-
+  
   <p>
-    <img src="furmak.jpg" alt="Icon">
+    <img src="furmak.jpg" alt="Furmak Machinery Logo">
     <span>
-      <strong><a href="https://www.facebook.com/furmaktextile/?locale=it_IT" target="_blank">Furmak Machinery</a></strong>, Winter 2021<br>
-      Industry Intern.<br>
-        <a href="furmak_recom.pdf">Recommendation Letter.</a></strong>
+      <strong><a href="https://www.facebook.com/furmaktextile/?locale=it_IT" target="_blank">Furmak Machinery</a></strong><br>
+      Industry Intern<br>
+      Winter 2021<br>
+      <a href="furmak_recom.pdf">Recommendation Letter</a>
     </span>
   </p>
-
+  
   <p>
-    <img src="kilic.png" alt="Icon">
+    <img src="kilic.png" alt="Kiliç Machines Logo">
     <span>
-      <strong><a href="https://www.kilicdolummakinalari.com/" target="_blank">Kiliç Machines and Automations</a></strong>, Summer 2020<br>
-      Industry Intern.<br>
-        <a href="Kilic_Recom.pdf">Recommendation Letter.</a></strong>
+      <strong><a href="https://www.kilicdolummakinalari.com/" target="_blank">Kiliç Machines and Automations</a></strong><br>
+      Industry Intern<br>
+      Summer 2020<br>
+      <a href="Kilic_Recom.pdf">Recommendation Letter</a>
     </span>
   </p>
-
+  
   <p>
-    <img src="koc.jpg" alt="Icon">
+    <img src="koc.jpg" alt="Koç University Logo">
     <span>
-      <strong><a href="https://corelab.ku.edu.tr/" target="_blank">Koç University</a></strong>, Summer 2019<br>
-      Research Intern.<br>
+      <strong><a href="https://corelab.ku.edu.tr/" target="_blank">Koç University</a></strong><br>
+      Research Intern<br>
+      Summer 2019<br>
       Advisor: <a href="https://scholar.google.com/citations?user=zRdAU7kAAAAJ&hl=en" target="_blank">Ertugrul Basar</a><br>
-      <a href="Certificate and Reference Letter.pdf">Certification.</a></strong>
+      <a href="Certificate and Reference Letter.pdf">Certification</a>
     </span>
   </p>
 </div>
-
-
-<hr style="border: 0; border-top: 0.5px solid rgba(204, 204, 204, 0.5); margin: 20px 0;">
 
     
     
